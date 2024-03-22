@@ -1,0 +1,36 @@
+<mjml>
+    <mj-head>
+        <mj-attributes>
+      <mj-text padding="0" />
+      <mj-class name="Text" font-size="16px" font-weight="400" line-height="20px" color="#1a1a1a"/>
+      <mj-class name ="Signature" font-size="14px" line-height="16px" align="right" />
+      <mj-all font-family="Arial" />
+    </mj-attributes>
+    </mj-head>
+    <mj-body background-color="#fbfbfb">
+        <mj-section background-color="#fff">
+            <mj-column width="600px">
+              <mj-image
+                 src="images/logo.jpg"
+                 alt="Logo Ecosup Campus"
+                 width="600px" />
+                <mj-text mj-class="Text" padding-left="60px" padding-top="0px" padding-right="60px" padding-bottom="30px">
+<p>Bonjour {{contact.PRENOM}},</p>
+<p>Un petit message pour à la fois prendre de tes nouvelles et savoir où tu en es concernant tes recherches d'entreprises.</p>
+<p>N'hésite pas à me contacter si besoin et reste motivé</p>
+<p>Garde en tête que plus ta recherche sera active, plus tu auras des opportunités !</p>
+<p><strong>Petit rappel {{contact.PRENOM}}:</strong> ton inscription sera définitive chez ECOSUP, sous réserve de décrocher ton contrat en alternance.</p>
+<p>Bonne fin de semaine et à bientôt.</p></mj-text>
+<mj-text mj-class="Signature" font-weight="600" padding-right="90px">Aïcha OUBADJI</mj-text>
+<mj-text mj-class="Signature" font-weight="300" padding-right="90px">Responsable<br/>relations entreprises<br/>et recrutement</mj-text>
+<mj-text mj-class="Signature" font-weight="600" padding-right="90px">07 57 81 51 43</mj-text>
+<mj-text mj-class="Signature" font-weight="300" padding-right="90px">aicha.oubadji@ecosup-campus.fr</mj-text>
+            </mj-column>
+        </mj-section>
+        <mj-section padding="50px" background-color="#f3f3f3">
+      <mj-column>
+        <mj-text align="center" color="#9B9B9B" font-size="11px" line-height="12px"><strong>ECOSUP CAMPUS</strong><br/>17 Place Charles et Albert Roussel - 59200 Tourcoing<br/>tél. 03.20.70.06.06 - contact@ecosup-campus.fr<br/><a href="https://ecosup-campus.fr" style="color: #9B9B9B; text-decoration:none;">Made by Ecosup Campus 2023</a></mj-text>
+      </mj-column>
+    </mj-section>
+    </mj-body>
+</mjml>
